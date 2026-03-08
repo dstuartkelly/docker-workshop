@@ -28,5 +28,8 @@ However, because we persisted the data in a volume, and connected the new contai
 ![todo app](./images/14-to-do.png)
 
 ## Dive into the volume
-Whe we use docker volume inspect, we can see where on the disk of the docker host that the directory is stored and browse the contents of the directory.
+When we use docker volume inspect, we can see where on the disk of the docker host that the directory is stored and browse the contents of the directory.
 ![volume inspect](./images/15-volume-inspect.png)
+
+## Summary
+Here we used docker volumes to persist data across containers.
