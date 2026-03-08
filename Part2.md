@@ -1,0 +1,27 @@
+# Part 2 Update the Application
+## Update the source code
+
+In the [getting-started-app we forked earlier](https://github.com/dstuartkelly/docker-getting-started-app), we edit the src/static/js/app.js
+
+```
+- <p className="text-center">No items yet! Add one above!</p>
++ <p className="text-center">You have no todo items yet! Add one above!</p>
+```
+
+We can see [the commit](https://github.com/dstuartkelly/docker-getting-started-app/commit/20ccff3bdcf80806c14306aeaefc06039d905b08) of the edit in the forked repo.
+
+We can rebuild this immediately, but are unable to run it because a container with the same name is already running. So the steps are
+1. Find the container ID of the running container with ``docker ps`` command
+2. Stop the container using ``docker stop container id``
+3. Remove the old container using ``docker rm container id``
+4. Build the new container using ``docker build -t getting-started .``
+5. Start the new & updated container (this container is loaded from the locally available docker images).
+
+![docker build and run updated image](./images/05-docker-build.png)
+
+Check the browser on http://localhost:3000 and we now see the updated text.
+![updated to-do application](./images/06-to-do.png)
+
+## Summary
+In this section we updated and rebuilt the image.
+Before running the new image, we had to stop and remove the old container.
