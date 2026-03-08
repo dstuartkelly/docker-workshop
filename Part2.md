@@ -10,6 +10,7 @@ In the [getting-started-app we forked earlier](https://github.com/dstuartkelly/d
 
 We can see [the commit](https://github.com/dstuartkelly/docker-getting-started-app/commit/20ccff3bdcf80806c14306aeaefc06039d905b08) of the edit in the forked repo.
 
+## Remove the old container, build then run the new image.
 We can rebuild this immediately, but are unable to run it because a container with the same name is already running. So the steps are
 1. Find the container ID of the running container with ``docker ps`` command
 2. Stop the container using ``docker stop container id``
