@@ -15,3 +15,8 @@ The workshop states that the following tasks will be performed.
 - Share images using Docker Hub.
 - Deploy Docker applications using multiple containers with a database.
 - Run applications using Docker Compose.
+
+## Relevant links
+- This Repository https://github.com/dstuartkelly/docker-workshop  
+- Getting Started App https://github.com/dstuartkelly/docker-getting-started-app  
+- Docker Hub for Getting Started App https://hub.docker.com/r/dstuartkelly/getting-started  
