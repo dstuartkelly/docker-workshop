@@ -1,5 +1,7 @@
 # Part 4 Persist the Database
 
+From: https://docs.docker.com/get-started/workshop/05_persisting_data/
+
 ## Container filesystem in practice
 
 In this example we run the alpine base image using the ``--rm`` flag which instructs docker to remove the container and associated volumes when it exits.  

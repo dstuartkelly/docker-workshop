@@ -1,4 +1,7 @@
 # Part 2 Update the Application
+
+From: https://docs.docker.com/get-started/workshop/03_updating_app/
+
 ## Update the source code
 
 In the [getting-started-app we forked earlier](https://github.com/dstuartkelly/docker-getting-started-app), we edit the src/static/js/app.js

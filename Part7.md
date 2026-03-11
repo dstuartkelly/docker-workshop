@@ -1,5 +1,7 @@
 # Part 7 - Use Docker Compose
 
+From: https://docs.docker.com/get-started/workshop/08_using_compose/
+
 ## Create the Compose file
 
 ```bash

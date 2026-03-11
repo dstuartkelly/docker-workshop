@@ -1,4 +1,7 @@
 # Part 1
+
+From: https://docs.docker.com/get-started/workshop/02_our_app/
+
 ## Prerequisites
 - Have the [latest version of docker installed](https://docs.docker.com/engine/install/ubuntu/)
 - Have a [git client installed](https://git-scm.com/install/linux)

@@ -1,5 +1,7 @@
 # Part 3 Share the Application
 
+From: https://docs.docker.com/get-started/workshop/04_sharing_app/
+
 ## Create a repository
 We are creating a new repository in docker hub called ``getting-started``. This is done by signing up and logging into [docker hub](https://hub.docker.com/), navigating to My Hub -> Repositories
 
