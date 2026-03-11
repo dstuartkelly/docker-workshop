@@ -10,7 +10,7 @@ touch compose.yaml
 
 ## Define the app service
 ```yaml
-service:
+services:
   app:
     image: node:24-alpine
     command: sh -c "npm install && npm run dev"

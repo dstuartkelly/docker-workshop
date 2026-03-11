@@ -39,7 +39,7 @@ In the below example provides the commands to tag the same image with 1.0 to ind
 ``docker tag getting-started dstuartkelly/getting-started:1.0``  
 ``docker push dstuartkelly/getting-started:1.0``  will upload the image with the ``1.0`` tag
 
-The screenshot here shows us two tags available, you should note that these tags have the same hash, which indicatest that they are the same image with the same contents.
+The screenshot here shows us two tags available, you should note that these tags have the same hash, which indicates that they are the same image with the same contents.
 ![docker hub tagged images](./images/10-docker-tags.png)
 
 This will allow us to pull the image without specifying the version.

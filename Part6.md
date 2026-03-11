@@ -28,7 +28,7 @@ We can test the database is up and running by opening an interactive terminal in
 
 ![testing sql](./images/26-connect-mysql.png)
 
-Using (netshoot docker network troubleshooting container)[https://hub.docker.com/r/nicolaka/netshoot] we can see the ``--network alias mysql`` used as part of our docker run command is available for other docker containers to use as a DNS hostname.
+Using [netshoot docker network troubleshooting container](https://hub.docker.com/r/nicolaka/netshoot) we can see the ``--network alias mysql`` used as part of our docker run command is available for other docker containers to use as a DNS hostname.
 
 ![docker-dns](./images/27-network-alias.png)
 

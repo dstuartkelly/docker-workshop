@@ -16,8 +16,8 @@ git clone git@github.com:dstuartkelly/docker-getting-started-app.git
 ```
 ![img](./images/01-clone-app.png)
 
-## Build the Apps Image
- Included [Dockerfile](./Dockerfile) is provided by Docker workshop. This file should be placed in the root directory of the repo we cloned during the *Get the App* step. We build the image using the command ```docker build -t getting-started .```
+## Build the App's Image
+ The included [Dockerfile](./Dockerfile) is provided by the Docker workshop. This file should be placed in the root directory of the repo we cloned during the *Get the App* step. We build the image using the command ```docker build -t getting-started .```
 
  ![Building docker image](./images/02-docker-bulild.png)
 

@@ -8,7 +8,7 @@ Run the following to start bash in an ubuntu container with a bind mount.
 `` docker run -it --mount type=bind,src=.,target=/src ubuntu bash``
 
 The below screenshot shows us 2 terminals.
-1. In the top terminal we start the docker container mountint the local path (this repository) and navigate to the src directory. We can see the path is ``root@814cfacf4e9b:/src`` and we list the files.
+1. In the top terminal we start the docker container mounting the local path (this repository) and navigate to the src directory. We can see the path is ``root@814cfacf4e9b:/src`` and we list the files.
 2. In the bottom terminal we are listing the files our local machine in the repo directory.
 3. In both terminals we can see the same file contents.   
 
