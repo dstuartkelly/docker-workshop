@@ -26,3 +26,5 @@ Check the browser on http://localhost:3000 and we now see the updated text.
 ## Summary
 In this section we updated and rebuilt the image.
 Before running the new image, we had to stop and remove the old container.
+
+[Continue to Part 3](./Part3.md)

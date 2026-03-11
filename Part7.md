@@ -47,3 +47,10 @@ volumes:
 ![docker compose up](./images/31-docker-compose-up.png)
 
 ![todo app](./images/32-to-do.png)
+
+## Summary
+
+We created a ``compose.yaml`` and used ``docker compose`` to configure and run two docker containers
+
+
+**End of Exercise**

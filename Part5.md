@@ -46,3 +46,5 @@ The updated images can now be seen on the docker hub website and are available p
 At this point, you can persist your database and see changes in your app as you develop without rebuilding the image.
 
 In addition to volume mounts and bind mounts, Docker also supports other mount types and storage drivers for handling more complex and specialized use cases.
+
+[Continue to Part 6](./Part6.md)

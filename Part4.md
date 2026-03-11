@@ -33,3 +33,5 @@ When we use docker volume inspect, we can see where on the disk of the docker ho
 
 ## Summary
 Here we used docker volumes to persist data across containers.
+
+[Continue to Part 5](./Part5.md)

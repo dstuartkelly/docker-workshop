@@ -49,3 +49,5 @@ And then we check directly in the database where we can see the tasks that were 
 
 ## Summary
 In this part of the workshop, we created a docker-network and started a MySQL database container. We connected the todo-app container to the database running in the MySQL container and stored data in it. We also showed a little about network discovery using DNS tools ``dig`` and ``nslookup``.
+
+[Continue to Part 7](./Part7.md)

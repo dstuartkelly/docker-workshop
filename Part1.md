@@ -28,3 +28,5 @@ We then run the app with the command
 ## Summary
 In this section we cloned a repo and created a [Dockerfile](./Dockerfile) to build an image.
 We used this image to start a container and saw the app running.
+
+[Continue to Part 2](./Part2.md)
