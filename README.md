@@ -20,3 +20,20 @@ The workshop states that the following tasks will be performed.
 - This Repository https://github.com/dstuartkelly/docker-workshop  
 - Getting Started App https://github.com/dstuartkelly/docker-getting-started-app  
 - Docker Hub for Getting Started App https://hub.docker.com/r/dstuartkelly/getting-started  
+
+## File Listing
+- [Root](./)  
+    - [Part1.md](./Part1.md) Part 1 of docker workshop  
+    - [Part2.md](./Part2.md) Part 2 of docker workshop  
+    - [Part3.md](./Part3.md) Part 3 of docker workshop  
+    - [Part4.md](./Part4.md) Part 4 of docker workshop  
+    - [Part5.md](./Part5.md) Part 5 of docker workshop  
+    - [Part6.md](./Part6.md) Part 6 of docker workshop  
+    - [Part7.md](./Part7.md) Part 7 of docker workshop  
+    - [README.md](./README.md) This file
+
+- [files](./files/) directory used to store files relevant to this assignment  
+    - [Dockerfile](./files/Dockerfile)  A copy of the dockerfile from [docker-getting-started-ap](https://github.com/dstuartkelly/docker-getting-started-app) repository that was used in Part 1
+    - [compose.yaml](./files/compose.yaml)  A copy of the docker compose file for  [docker-getting-started-ap](https://github.com/dstuartkelly/docker-getting-started-app) repository used in Part 6
+
+- [images](./images/) directory used to store various images displayed in each of the Part*.md documents
