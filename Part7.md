@@ -52,7 +52,7 @@ volumes:
 
 ## Summary
 
-We created a ``compose.yaml`` and used ``docker compose`` to configure and run two docker containers
+A ``compose.yaml`` file was created and used with ``docker compose`` to define, configure and run two containers together as a single application stack.
 
 
 **End of Exercise**
